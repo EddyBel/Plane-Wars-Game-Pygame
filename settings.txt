@@ -1,0 +1,1 @@
+{"viewFPS": true, "numberAsteroids": 8}
