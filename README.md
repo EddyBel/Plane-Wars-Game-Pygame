@@ -28,15 +28,15 @@ While the game is already fun and challenging, there are some additional feature
 
 ## Project view
 
-![Capture](./assets/docs/capture1.png)
+![Capture](./assets/docs/capture%20(8).png)
 
 ---
 
-![Capture](./assets/docs/capture2.png)
+![Capture](./assets/docs/capture%20(6).png)
 
 ---
 
-![Capture](./assets/docs/capture3.png)
+![Capture](./assets/docs/capture%20(7).png)
 
 
 # Steps to run the project
@@ -77,7 +77,7 @@ Once inside our virtual environment we can install all the necessary dependencie
 pip install -r .\requeriments.txt
 ```
 
-The only thing left to do is to run the game, the main file of the game is named __"main.py"__, and we can run it as follows.
+The only thing left to do is to run the game, the main file of the game is named __"_init_.py"__, and we can run it as follows.
 
 ```sh
 python main.py

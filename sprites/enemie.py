@@ -4,6 +4,12 @@ import random
 
 
 class Asteroid (pygame.sprite.Sprite):
+    """An asteroid sprite that moves downwards on the screen.
+
+    The asteroid is initialized with a random image from the PATHS_ASTEROIDS
+    list, a random size, a random angle of rotation, and random x and y
+    speeds. The asteroid's initial x position is also randomized.
+    """
 
     def __init__(self):
         super().__init__()
@@ -25,6 +31,11 @@ class Asteroid (pygame.sprite.Sprite):
         self.speed_x = random.randrange(-2, 3)
 
     def update(self):
+        """Updates the position and state of the asteroid.
+
+        If the asteroid goes off the bottom of the screen, it is removed from
+        any sprite groups.
+        """
         self.rect.y += self.speed_y
         self.rect.x += self.speed_x
 
