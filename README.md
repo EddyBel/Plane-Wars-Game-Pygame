@@ -80,7 +80,7 @@ pip install -r .\requeriments.txt
 The only thing left to do is to run the game, the main file of the game is named __"_init_.py"__, and we can run it as follows.
 
 ```sh
-python main.py
+python _init_.py
 ```
 
 # Technologies used
