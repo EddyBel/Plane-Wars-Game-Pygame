@@ -19,12 +19,12 @@ This game was built as a practice project to learn Python and the Pygame library
 
 While the game is already fun and challenging, there are some additional features that I would like to add in the future:
 
-- [] **Start menu**: A home screen that allows the player to start the game, view high scores or access settings.
-- [] **Best Scores**: A table of the best scores obtained by the players.
-- [] **Collision system improvement**: Currently, the ship simply disappears when it collides with an asteroid. I would like to improve this with visual effects and a smoother transition to the finished game screen.
-- [] **Destruction effects**: When destroying the ship or asteroids, I would like to add visual effects to make the game even more exciting.
-- [] **Different difficulties and game modes**: I would like to add different game modes, such as an easier difficulty or an endless mode, so that players can choose how they want to play.
-- [] **New levels**: It would be fun to add new levels with additional obstacles and challenges as the player progresses through the game.
+- [ ] **Start menu**: A home screen that allows the player to start the game, view high scores or access settings.
+- [ ] **Best Scores**: A table of the best scores obtained by the players.
+- [ ] **Collision system improvement**: Currently, the ship simply disappears when it collides with an asteroid. I would like to improve this with visual effects and a smoother transition to the finished game screen.
+- [ ] **Destruction effects**: When destroying the ship or asteroids, I would like to add visual effects to make the game even more exciting.
+- [ ] **Different difficulties and game modes**: I would like to add different game modes, such as an easier difficulty or an endless mode, so that players can choose how they want to play.
+- [ ] **New levels**: It would be fun to add new levels with additional obstacles and challenges as the player progresses through the game.
 
 ## Project view
 
