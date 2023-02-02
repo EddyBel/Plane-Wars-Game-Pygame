@@ -1,11 +1,20 @@
 <h1 align="center">Plane Wars (Game Pygame)</h1>
 
+<div style="display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;">
+    <img align="center" src="https://img.shields.io/github/last-commit/EddyBel/Plane-Wars-Game-Pygame?color=%23AED6F1&style=for-the-badge" />
+    <img align="center" src="https://img.shields.io/github/license/EddyBel/Plane-Wars-Game-Pygame?color=%23EAECEE&style=for-the-badge" />
+    <img align="center" src="https://img.shields.io/github/languages/top/EddyBel/Plane-Wars-Game-Pygame?color=%23F9E79F&style=for-the-badge" />
+    <img align="center" src="https://img.shields.io/github/languages/count/EddyBel/Plane-Wars-Game-Pygame?color=%23ABEBC6&style=for-the-badge" />
+    <img align="center" src="https://img.shields.io/github/languages/code-size/EddyBel/Plane-Wars-Game-Pygame?color=%23F1948A&style=for-the-badge" />
+</div
+
+---
+
 This pygame is based on a spaceship that has to dodge and destroy asteroids. The player has a life bar and a destroyed asteroid counter, pilot your ship and see how long you can survive in this challenging outer space!
 
 ## Why did I build this game?
 
 This game was built as a practice project to learn Python and the Pygame library. It seemed like a fun way to deepen my knowledge of these technologies while creating something fun and challenging. Although the game is simple, I hope it serves as a good example of how to implement some of the basic features of Pygame, such as the main screen, event handling, and collision.
-
 
 ## Features
 
@@ -28,31 +37,33 @@ While the game is already fun and challenging, there are some additional feature
 
 ## Project view
 
-![Capture](./assets/docs/capture%20(8).png)
+![Capture](<./assets/docs/capture%20(8).png>)
 
 ---
 
-![Capture](./assets/docs/capture%20(6).png)
+![Capture](<./assets/docs/capture%20(6).png>)
 
 ---
 
-![Capture](./assets/docs/capture%20(7).png)
-
+![Capture](<./assets/docs/capture%20(7).png>)
 
 # Steps to run the project
 
 First we must clone the repository on the computer and move it to the project folder.
+
 ```sh
 git clone https://github.com/EddyBel/Plane-Wars-Game-Pygame.git
 cd Plane-Wars-Game-Pygame
 ```
 
 For the following it is necessary to have python virtualenv installed, if you don't have it you can install it with the following command.
+
 ```sh
 pip install virtualenv
 ```
 
 Then you can create the virtual environment where the script will run and we will have our dependencies, the virtual environment can have the name you like for example we will use **"env "** as the name of the environment.
+
 ```sh
 python -m venv env
 ```
@@ -77,7 +88,7 @@ Once inside our virtual environment we can install all the necessary dependencie
 pip install -r .\requeriments.txt
 ```
 
-The only thing left to do is to run the game, the main file of the game is named __"_init_.py"__, and we can run it as follows.
+The only thing left to do is to run the game, the main file of the game is named **main.py**, and we can run it as follows.
 
 ```sh
 python main.py

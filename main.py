@@ -6,14 +6,13 @@ from utils.draw import draw_text, draw_live_bar
 from utils.file import saveScore, saveSettings, loadScore
 from utils.validations import validate_key
 from utils.time import measure_time
-from groups import ALL_SPRITES, BULLET_GROUP
+from groups import ALL_SPRITES, ALL_SPRITES
 from screen import Screen
 from soungs import PLAYER_EXPLOSION_EFFECT
 from settings import SCREEN_WIDTH, CLOCK, SCORE, DONE_LOOP, FPS, PATH_BACKGROUND, USE_FACIAL_RECOGNITION, KEY_QUIT, KEY_SHOOT, TITLE, SCREEN_HEIGHT
 import pygame
 import sys
 import asyncio
-import groups
 
 pygame.init()
 
@@ -24,7 +23,7 @@ background = pygame.image.load(PATH_BACKGROUND).convert()
 
 # Player
 player = Player()
-groups.ALL_SPRITES.add(player)
+ALL_SPRITES.add(player)
 
 # Collections
 collections = Collections(player)
@@ -82,10 +81,13 @@ async def mainLoop(done: bool, score: int, fps: bool = True):
 
         # ------------------------- Camera functions
         if USE_FACIAL_RECOGNITION:
-            response = await viewCamera(True, True)
-            player.move_head = response["value"]
-            if response['is_loop']:
-                break
+            try:
+                response = await viewCamera(True, True)
+                player.move_head = response["value"]
+                if response['is_loop']:
+                    break
+            except:
+                print("Camera not found")
 
         # --------------------------- Game Functions
 
