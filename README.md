@@ -18,22 +18,22 @@ This game was built as a practice project to learn Python and the Pygame library
 
 ## Features
 
-- The game is written in Python and uses the Pygame library for the graphical interface and event handling.
-- The player can move through the arrow keys and shoot with the space bar.
-- The asteroids move towards the ship and regenerate as they leave the screen.
-- If the ship collides with an asteroid, the player's life bar decreases. If the life bar reaches zero, the game is over.
-- The counter of destroyed asteroids is increased each time the player destroys an asteroid with a shot.
+- [x] The game is written in Python and uses the Pygame library for the graphical interface and event handling.
+- [x] The player can move through the arrow keys and shoot with the space bar.
+- [x] The asteroids move towards the ship and regenerate as they leave the screen.
+- [x] If the ship collides with an asteroid, the player's life bar decreases. If the life bar reaches zero, the game is over.
+- [x] The counter of destroyed asteroids is increased each time the player destroys an asteroid with a shot.
 
 # Future features
 
 While the game is already fun and challenging, there are some additional features that I would like to add in the future:
 
-- **Start menu**: A home screen that allows the player to start the game, view high scores or access settings.
-- **Best Scores**: A table of the best scores obtained by the players.
-- **Collision system improvement**: Currently, the ship simply disappears when it collides with an asteroid. I would like to improve this with visual effects and a smoother transition to the finished game screen.
-- **Destruction effects**: When destroying the ship or asteroids, I would like to add visual effects to make the game even more exciting.
-- **Different difficulties and game modes**: I would like to add different game modes, such as an easier difficulty or an endless mode, so that players can choose how they want to play.
-- **New levels**: It would be fun to add new levels with additional obstacles and challenges as the player progresses through the game.
+- [ ] **Start menu**: A home screen that allows the player to start the game, view high scores or access settings.
+- [ ] **Best Scores**: A table of the best scores obtained by the players.
+- [ ] **Collision system improvement**: Currently, the ship simply disappears when it collides with an asteroid. I would like to improve this with visual effects and a smoother transition to the finished game screen.
+- [ ] **Destruction effects**: When destroying the ship or asteroids, I would like to add visual effects to make the game even more exciting.
+- [ ] **Different difficulties and game modes**: I would like to add different game modes, such as an easier difficulty or an endless mode, so that players can choose how they want to play.
+- [ ] **New levels**: It would be fun to add new levels with additional obstacles and challenges as the player progresses through the game.
 
 ## Project view
 
@@ -91,7 +91,7 @@ pip install -r .\requeriments.txt
 The only thing left to do is to run the game, the main file of the game is named **main.py**, and we can run it as follows.
 
 ```sh
-python main.py
+python _init_.py
 ```
 
 # Technologies used
