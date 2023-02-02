@@ -10,6 +10,8 @@
 
 ---
 
+---
+
 This pygame is based on a spaceship that has to dodge and destroy asteroids. The player has a life bar and a destroyed asteroid counter, pilot your ship and see how long you can survive in this challenging outer space!
 
 ## Why did I build this game?
