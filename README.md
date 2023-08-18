@@ -8,9 +8,11 @@
     <img align="center" src="https://img.shields.io/github/languages/code-size/EddyBel/Plane-Wars-Game-Pygame?color=%23F1948A&style=for-the-badge" />
 </div
 
----
-
----
+<p align="center" >
+    <img src="./assets/docs/Preview_1.png" />
+    <img src="./assets/docs/Preview_2.png" />
+    <img src="./assets/docs/Preview_3.png" />
+</p>
 
 This pygame is based on a spaceship that has to dodge and destroy asteroids. The player has a life bar and a destroyed asteroid counter, pilot your ship and see how long you can survive in this challenging outer space!
 
@@ -36,18 +38,6 @@ While the game is already fun and challenging, there are some additional feature
 - [ ] **Destruction effects**: When destroying the ship or asteroids, I would like to add visual effects to make the game even more exciting.
 - [ ] **Different difficulties and game modes**: I would like to add different game modes, such as an easier difficulty or an endless mode, so that players can choose how they want to play.
 - [ ] **New levels**: It would be fun to add new levels with additional obstacles and challenges as the player progresses through the game.
-
-## Project view
-
-![Capture](<./assets/docs/capture%20(8).png>)
-
----
-
-![Capture](<./assets/docs/capture%20(6).png>)
-
----
-
-![Capture](<./assets/docs/capture%20(7).png>)
 
 # Steps to run the project
 
