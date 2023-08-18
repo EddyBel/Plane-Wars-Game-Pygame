@@ -1,12 +1,10 @@
 <h1 align="center">Plane Wars (Game Pygame)</h1>
 
-<div style="display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;">
-    <img align="center" src="https://img.shields.io/github/last-commit/EddyBel/Plane-Wars-Game-Pygame?color=%23AED6F1&style=for-the-badge" />
-    <img align="center" src="https://img.shields.io/github/license/EddyBel/Plane-Wars-Game-Pygame?color=%23EAECEE&style=for-the-badge" />
-    <img align="center" src="https://img.shields.io/github/languages/top/EddyBel/Plane-Wars-Game-Pygame?color=%23F9E79F&style=for-the-badge" />
-    <img align="center" src="https://img.shields.io/github/languages/count/EddyBel/Plane-Wars-Game-Pygame?color=%23ABEBC6&style=for-the-badge" />
-    <img align="center" src="https://img.shields.io/github/languages/code-size/EddyBel/Plane-Wars-Game-Pygame?color=%23F1948A&style=for-the-badge" />
-</div
+![Preview](https://img.shields.io/github/last-commit/EddyBel/Plane-Wars-Game-Pygame?color=%23AED6F1&style=for-the-badge)
+![Preview](https://img.shields.io/github/license/EddyBel/Plane-Wars-Game-Pygame?color=%23EAECEE&style=for-the-badge)
+![Preview](https://img.shields.io/github/languages/top/EddyBel/Plane-Wars-Game-Pygame?color=%23F9E79F&style=for-the-badge)
+![Preview](https://img.shields.io/github/languages/count/EddyBel/Plane-Wars-Game-Pygame?color=%23ABEBC6&style=for-the-badge)
+![Preview](https://img.shields.io/github/languages/code-size/EddyBel/Plane-Wars-Game-Pygame?color=%23F1948A&style=for-the-badge)
 
 <p align="center" >
     <img src="./assets/docs/Preview_1.png" />
